@@ -1,0 +1,5 @@
+c:\users\qucc\documents\visual studio 2012\Projects\hello-html5\hello-html5\bin\hello-html5.dll
+c:\users\qucc\documents\visual studio 2012\Projects\hello-html5\hello-html5\bin\hello-html5.pdb
+c:\users\qucc\documents\visual studio 2012\Projects\hello-html5\hello-html5\obj\Debug\hello-html5.csprojResolveAssemblyReference.cache
+c:\users\qucc\documents\visual studio 2012\Projects\hello-html5\hello-html5\obj\Debug\hello-html5.dll
+c:\users\qucc\documents\visual studio 2012\Projects\hello-html5\hello-html5\obj\Debug\hello-html5.pdb

@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>IPA</title>
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/ZeroClipboard.min.js"></script>
+    <style>
+        label {
+            display: block;
+            color: white;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            background-color: rgb(74, 129, 181);
+            vertical-align: middle;
+            text-align: center;
+            font-size: large;
+        }
+
+        button {
+            width: 35px;
+            height: 35px;
+            border-radius: 5px;
+            border-color: rgb(139, 221, 248);
+            box-shadow: 3px 3px 3px #888888;
+            font-family: Arial;
+            color: black;
+            background-color: white;
+            font-size: 19px;
+            -webkit-user-select: none;
+        }
+
+            button:hover {
+                color: gray;
+            }
+
+            button:focus {
+                outline: none;
+            }
+    </style>
+    <script src="Scripts/action.js"></script>
+</head>
+<body>
+    <label id="result"></label>
+    <table>
+        <tr>
+            <td>
+                <button>/</button></td>
+            <td>
+                <button>'</button></td>
+            <td>
+                <button>,</button></td>
+            <td>
+                <button class="fa fa-clipboard" title="复制" id="Copy"></button>
+            </td>
+            <td>
+                <button class="fa fa-trash-o" title="清除" id="Clear"></button>
+            </td>
+            <td>
+                <button class="fa fa-arrow-left" title="删除" id="Delete"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>ʌ</button>
+            </td>
+            <td>
+                <button>æ</button>
+            </td>
+            <td>
+                <button>e</button>
+            </td>
+            <td>
+                <button>ə</button>
+            </td>
+            <td>
+                <button>ɪ</button>
+            </td>
+            <td>
+                <button>ɒ</button>
+            </td>
+            <td>
+                <button>ʊ</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>ɑ:</button>
+            </td>
+            <td>
+                <button>ɜ:</button>
+            </td>
+            <td>
+                <button>i:</button>
+            </td>
+            <td>
+                <button>ɔ:</button>
+            </td>
+            <td>
+                <button>u:</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>aɪ</button>
+            </td>
+            <td>
+                <button>aʊ</button>
+            </td>
+            <td>
+                <button>eɪ</button>
+            </td>
+            <td>
+                <button>oʊ</button>
+            </td>
+            <td>
+                <button>ɔɪ</button>
+            </td>
+            <td>
+                <button>eə</button>
+            </td>
+            <td>
+                <button>ɪə</button>
+            </td>
+            <td>
+                <button>ʊə</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>p</button>
+            </td>
+            <td>
+                <button>t</button>
+            </td>
+            <td>
+                <button>tʃ</button>
+            </td>
+            <td>
+                <button>k</button>
+            </td>
+            <td>
+                <button>f</button>
+            </td>
+            <td>
+                <button>θ</button>
+            </td>
+            <td>
+                <button>s</button>
+            </td>
+            <td>
+                <button>ʃ</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>b</button>
+            </td>
+            <td>
+                <button>d</button>
+            </td>
+            <td>
+                <button>dʒ</button>
+            </td>
+            <td>
+                <button>g</button>
+            </td>
+            <td>
+                <button>v</button>
+            </td>
+            <td>
+                <button>ð</button>
+            </td>
+            <td>
+                <button>z</button>
+            </td>
+            <td>
+                <button>ʒ</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>m</button>
+            </td>
+            <td>
+                <button>n</button>
+            </td>
+            <td>
+                <button>ŋ</button>
+            </td>
+            <td>
+                <button>h</button>
+            </td>
+            <td>
+                <button>l</button>
+            </td>
+            <td>
+                <button>r</button>
+            </td>
+            <td>
+                <button>w</button>
+            </td>
+            <td>
+                <button>j</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
